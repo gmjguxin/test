@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T03:28:51.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="isLzJoMnoUGcmA-zXsyT" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T03:35:42.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3HG7IO_9eODCQ0wYWQCC" version="21.0.6" type="github">
   <diagram name="第 1 页" id="OO-Optd6g2HfAG82itDb">
     <mxGraphModel dx="1462" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="pAe3NpSyUs_MQzeOcdK5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-1" target="pAe3NpSyUs_MQzeOcdK5-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pAe3NpSyUs_MQzeOcdK5-1" value="部门A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-1" value="部门A将任务文件放入到ftp上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pAe3NpSyUs_MQzeOcdK5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-2">
@@ -15,17 +15,47 @@
             <mxPoint x="250" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pAe3NpSyUs_MQzeOcdK5-2" value="部门B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-2" value="部门B将任务文件放入到ftp上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pAe3NpSyUs_MQzeOcdK5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-3" target="pAe3NpSyUs_MQzeOcdK5-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pAe3NpSyUs_MQzeOcdK5-3" value="部门C" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-3" value="部门C将任务文件放入到ftp上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pAe3NpSyUs_MQzeOcdK5-4" value="机器人读取ftp上文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-4" target="pAe3NpSyUs_MQzeOcdK5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-4" value="机器人根据部门关键字，获取企查查账户，ftp账户，收件邮箱账户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-9" target="pAe3NpSyUs_MQzeOcdK5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-9" value="excel配置文件加密" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-11" target="pAe3NpSyUs_MQzeOcdK5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-11" target="pAe3NpSyUs_MQzeOcdK5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pAe3NpSyUs_MQzeOcdK5-11" target="pAe3NpSyUs_MQzeOcdK5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-11" value="机器人运行流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-13" value="运行完成的数据发送到指定的部门A邮箱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-14" value="运行完成的数据发送到指定的部门B邮箱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pAe3NpSyUs_MQzeOcdK5-15" value="运行完成的数据发送到指定的部门C邮箱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
